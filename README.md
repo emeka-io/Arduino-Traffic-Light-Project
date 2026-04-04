@@ -11,10 +11,10 @@ This layout maps the signal flow from the Arduino to the breadboard.
 A pic of the wiring using components of the RFID  Arduino Starter Kit.
 ![Wiring Layout](./assets/wiring-photo.jpeg)
 
-## Hardware Components
+## Hardware Setup
 - **Microcontroller:** Arduino Uno R3
-- **Component:** Green LED (Anode to Pin 11, Cathode to GND)
-- **Protection:** 220Ω Resistor (Bridging Row 10 to 19)
+- **Component:** Green LED (Anode to Pin 11, Cathode to GND),Breadboard, 2x Jumper wires.
+- **Protection/Resistor:** 220Ω Resistor (Bridging Row 10 to 19)
 
 ## Logic & Timing
 The code implements a basic loop with a 66.67% duty cycle:
