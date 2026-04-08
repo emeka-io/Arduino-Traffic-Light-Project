@@ -1,4 +1,4 @@
-// Define our pins based on your wiring
+// Defining pins based on wiring
 const int greenLED  = 11;
 const int yellowLED = 12;
 const int redLED    = 13;
