@@ -3,15 +3,16 @@
 
 ## Live Demo
 See the full 3-LED sequence blinking here: [Link to my X post](https://x.com/EmekaBuilds_/status/2041866171729760302?s=20)
+See the full single LED blinking here: [Link to my X post](https://x.com/EmekaBuilds_/status/2040008618154627471?s=20)
 
 ## Circuit Diagrams
 This layout maps the signal flow for the full traffic system.
+![Phase 2 Layout](./assets/circuit-layout-v2.png)
+While, this layout maps the signal flow for the single LED(green).
 ![Phase 1 Layout](./assets/circuit-layout-v1.png)
-*(Optional: Add Phase 2 diagram here later)*
 
 ## Physical Build
 The evolution from a single green LED test to a full Traffic Light system.
-
 ### Phase 2: Complete Traffic Light
 ![Full System Wiring](./assets/phase-2-red-LED.jpg)
 
@@ -35,5 +36,5 @@ The evolution from a single green LED test to a full Traffic Light system.
 ## Logic & Timing
 The system uses a sequential loop:
 1. **Green:** 5000ms (5 seconds)
-2. **Yellow:** 1500ms (1.5 seconds)
+2. **Yellow:** 2000ms (2 seconds)
 3. **Red:** 5000ms (5 seconds)
