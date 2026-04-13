@@ -44,3 +44,10 @@ The system uses a sequential loop:
 1. **Green:** 5000ms (5 seconds)
 2. **Yellow:** 2000ms (2 seconds)
 3. **Red:** 5000ms (5 seconds)
+
+
+
+## Repository Structure
+* `/src`: Contains the `.ino` source code for each phase.
+* `/assets`: Contains the wiring diagrams and project photos for each phase.
+
